@@ -1,0 +1,56 @@
+*{
+    box-sizing:border-box;
+}
+body {
+    margin: 0;
+    background-image:url('https://p4.wallpaperbetter.com/wallpaper/661/973/110/cool-nba-logo-wallpaper-preview.jpg'); 
+    background-repeat:no;
+    background-size: cover;
+}
+
+.container {
+    margin:100px;
+    display: flex;
+    justify-content:space-around;
+    background: #041E42;
+    height:250px;
+    width:500px;
+    margin-inline:auto;   
+    align-items:flex-start;
+    box-shadow:8px 8px lightblue;
+    border-radius: 10px;
+}
+#heading{
+    color:white;
+    text-align: center;
+    font-size:40px;
+    margin-bottom:5px;
+    margin-top:20px;
+}
+#score-el{
+    border:1px solid black;
+    height:100px;
+    width:140px;
+    border-radius:8px;
+    text-align: right;
+    font-size:70px;
+    padding:10px; 
+    color:red;
+    font-family:'Times New Roman', Times, serif;     
+    background: black;
+}
+#btn-el{
+    margin-top:20px;   
+}
+#btn-el button{
+    height:35px;
+    width:43px;
+    border:2px solid #dadada;
+    color:#dadada;
+    background: transparent;
+    border-radius: 5px;
+    transition:transform ease 0.8s;
+}
+#btn-el button:hover{
+    transform:scale(1.2);
+}
